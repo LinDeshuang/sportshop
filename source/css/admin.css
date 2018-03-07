@@ -1,0 +1,5 @@
+.normal-select{height: 40px;width: 100%;border:solid 1px #ddd;border-radius: 2px;margin: 5px  auto;}
+.input-sm{width:50px;float:left;margin: 5px;}
+.upload-img{width: 100px;height: 150px;margin: 10px;float: left;}
+.upload-img:hover{transition: 1s ease;transform: scale(1.3);cursor: pointer;}
+.tip-info{text-align: center;width: 100%;font-size: 20px;margin: 20px auto;height: 40px;line-height: 40px;background-color: #eee;}
