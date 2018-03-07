@@ -1,5 +1,5 @@
 <?php 
-	require_once('/include/public.php');
+	require_once('include/public.php');
 	require_once('../public/class/db.php');
 	require_once('../public/class/pages.php');
  ?>
@@ -14,8 +14,8 @@
 <body class="layui-layout-body">
 	<div class="layui-layout layui-layout-admin">
 	  	<?php 
-	  		include_once('/include/header.php');
-	  		include_once('/include/aside.php');
+	  		include_once('include/header.php');
+	  		include_once('include/aside.php');
 	  	 ?>
 	 	<div class="layui-body">
 	    <!-- 内容主体区域 -->
@@ -62,12 +62,12 @@
 	    	</div>
 	  	</div>
 	  	<?php
-	  		include_once('/include/footer.php');
+	  		include_once('include/footer.php');
 	  	?>
 	</div>
 </body>
 	<?php 
-		include_once('/include/script.php');
+		include_once('include/script.php');
 	 ?>
 	 <script type="text/javascript">
 		layui.use('form', function(){

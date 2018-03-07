@@ -1,19 +1,19 @@
 <?php 
-	require_once('/include/public.php');
-	require_once('/include/check_user.php');
-	require_once('/public/class/db.php');
+	require_once('include/public.php');
+	require_once('include/check_user.php');
+	require_once('public/class/db.php');
  ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>体育用品商城-个人信息</title>
 	<?php
-		include_once('/include/head.php');
+		include_once('include/head.php');
 	?>
 </head>
 <body>
 	<?php
-		include_once('/include/header.php');
+		include_once('include/header.php');
 	?>
 	<?php 
 		if(!isset($_GET['id'])){
@@ -73,11 +73,11 @@
 	</div>
 
 	<?php
-		include_once('/include/footer.php');
+		include_once('include/footer.php');
 	?>
 </body>
 	<?php
-		include_once('/include/script.php');
+		include_once('include/script.php');
 	?>
 	<script type="text/javascript">
 	 	layui.use('form', function(){

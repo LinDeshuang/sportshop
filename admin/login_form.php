@@ -10,7 +10,7 @@
 <head>
 	<title>体育用品商城-后台登录</title>
 	<?php
-		include_once('/include/head.php');
+		include_once('include/head.php');
 	?>
 </head>
 <body class="layui-bg-gray">
@@ -45,7 +45,7 @@
 		</form>
 </body>
 	<?php
-		include_once('/include/script.php');
+		include_once('include/script.php');
 	?>
 	<script type="text/javascript">
 		layui.use('form', function(){

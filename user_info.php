@@ -1,5 +1,5 @@
 <?php 
-	require('/public/class/db.php');
+	require('public/class/db.php');
 	$code = '';
 	$msg = '';
 	session_start();

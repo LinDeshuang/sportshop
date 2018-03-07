@@ -1,17 +1,17 @@
 <?php 
-	require_once('/include/public.php');
+	require_once('include/public.php');
  ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>体育用品商城</title>
 	<?php
-		include_once('/include/head.php');
+		include_once('include/head.php');
 	?>
 </head>
 <body>
 	<?php
-		include_once('/include/header.php');
+		include_once('include/header.php');
 	?>
 
 	<div class="layui-container main-container">
@@ -56,11 +56,11 @@
 	</div>
 
 	<?php
-		include_once('/include/footer.php');
+		include_once('include/footer.php');
 	?>
 </body>
 	<?php
-		include_once('/include/script.php');
+		include_once('include/script.php');
 	?>
 	<script type="text/javascript">
 		layui.use('form', function(){

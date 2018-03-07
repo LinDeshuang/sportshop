@@ -1,5 +1,5 @@
 <?php 
-	require_once('/include/public.php');
+	require_once('include/public.php');
 	require_once('../public/class/db.php');
 	require_once('../public/class/pages.php');
  ?>
@@ -8,14 +8,14 @@
 <head>
 	<title>体育用品商城-后台管理</title>
 	<?php 
-		include_once('/include/head.php');
+		include_once('include/head.php');
  	?>
 </head>
 <body class="layui-layout-body">
 	<div class="layui-layout layui-layout-admin">
 	  	<?php 
-	  		include_once('/include/header.php');
-	  		include_once('/include/aside.php');
+	  		include_once('include/header.php');
+	  		include_once('include/aside.php');
 
 	  		if(!isset($_GET['id'])){
 				header('Location:/admin/good_list.php?menu=1-1');
@@ -181,12 +181,12 @@
 	    	</div>
 	  	</div>
 	  	<?php
-	  		include_once('/include/footer.php');
+	  		include_once('include/footer.php');
 	  	?>
 	</div>
 </body>
 	<?php 
-		include_once('/include/script.php');
+		include_once('include/script.php');
 	 ?>
 	 <script type="text/javascript">
 		//图片上传处理

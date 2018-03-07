@@ -1,15 +1,15 @@
 <?php 
-	require_once('/include/public.php');
-	require_once('/public/class/db.php');
-	require_once('/public/class/function.php');
-	require_once('/include/check_user.php');
+	require_once('include/public.php');
+	require_once('public/class/db.php');
+	require_once('public/class/function.php');
+	require_once('include/check_user.php');
  ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>体育用品商城</title>
 	<?php
-		include_once('/include/head.php');
+		include_once('include/head.php');
 	?>
 </head>
 <style type="text/css">
@@ -17,7 +17,7 @@
 </style>
 <body>
 	<?php
-		include_once('/include/header.php');
+		include_once('include/header.php');
 		$user_id = $_SESSION['user_id'];
 		$user_info = $_SQL->query("SELECT * FROM user WHERE id = {$user_id}")[0];
 		$address_info = $_SQL->query("SELECT * FROM address WHERE user_id={$user_id} AND delete_time=0 ORDER BY id DESC");
@@ -152,11 +152,11 @@
 	</div>
 
 	<?php
-		include_once('/include/footer.php');
+		include_once('include/footer.php');
 	?>
 </body>
 	<?php
-		include_once('/include/script.php');
+		include_once('include/script.php');
 	?>
 	<script type="text/javascript">
 		$(function(){
